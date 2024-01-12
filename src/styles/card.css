@@ -1,0 +1,15 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: darksalmon;
+}
+.scoreControll {
+  display: flex;
+  gap: 10px;
+}
+.scoreControll button {
+  text-align: center;
+  width: 20px;
+  height: 20px;
+}
