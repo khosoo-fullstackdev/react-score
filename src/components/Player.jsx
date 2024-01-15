@@ -6,9 +6,13 @@ export default function Player() {
       <div className="card">
         <p className="name"> {name}</p>
         <div className="scoreControll">
-          <button className="decreaseBtn">-</button>
+          <button className="decreaseBtn" onClick={decrease}>
+            -
+          </button>
           <p>{score}</p>
-          <button className="increaseBtn">+</button>
+          <button className="increaseBtn" onClick={increase}>
+            +
+          </button>
         </div>
       </div>
     );
